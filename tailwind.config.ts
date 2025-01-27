@@ -10,14 +10,19 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: 'var(--background)',
-        foreground: 'var(--foreground)',
+      fontFamily: {
+        mono: ['"JetBrains Mono"', 'monospace'],
       },
+
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
+      },
+      colors: {
+        customGreen: '#00FF00',
+        customBlue: '#0000FF',
+        customWhite: '#FFFFFF',
       },
     },
   },
